@@ -37,28 +37,28 @@ For more Information,[Click here](https://github.com/satabdi25-2000/vlsilabSRAM)
 
 **Hold State**
 
-WORDLINE=0
-Access transistors(M3,M4)-OFF
-Precharge Cell-ON
-Bistable operating points
-Previous data stored
+- WORDLINE=0
+- Access transistors(M3,M4)-OFF
+- Precharge Cell-ON
+- Bistable operating points
+- Previous data stored
 
 **Read Mode**
 
-WORDLINE=1(WWL and RWL)
-Access transistors(M3,M4)-ON
-Bitlines Precharged(WBL,WBLB,RBL)
-Data(Q) to be read
-Q read by separate wordline and Bitline(RWL,RBL)
-Increased Stability
-Isolated internal node(Q)
+- WORDLINE=1(WWL and RWL)
+- Access transistors(M3,M4)-ON
+- Bitlines Precharged(WBL,WBLB,RBL)
+- Data(Q) to be read
+- Q read by separate wordline and Bitline(RWL,RBL)
+- Increased Stability
+- Isolated internal node(Q)
 
 **Write Mode**
 
-WORDLINE=1(WWL)
-Access transistors(M3,M4)-ON
-Bitline/Bitlinebar=0(According to data-Done by write driver)(WBL/WBLB)
-Data(Q) to be flipped/written over previous value
+- WORDLINE=1(WWL)
+- Access transistors(M3,M4)-ON
+- Bitline/Bitlinebar=0(According to data-Done by write driver)(WBL/WBLB)
+- Data(Q) to be flipped/written over previous value
 
 ### Circuit Diagram
 
