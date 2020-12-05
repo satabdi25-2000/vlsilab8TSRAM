@@ -90,12 +90,12 @@ The Stability of the Cell is quantified by its Signal to Noise Margin(SNM).It de
 
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/SNMREAD6T.png)
 The Read SNM can be determined by fitting a square in the upper and lower butterfly curve loop.
-SNM = min(SNM1,SNM2) = min(0.5,0.45) = **0.45**
+`SNM = min(SNM1,SNM2) = min(0.5,0.45) = 0.45`
 
 **Read SNM of 8T**
 
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/SNM8T.png)
-Similarly,SNM = min(1.5,1.35) = **1.35**
+Similarly,`SNM = min(1.5,1.35) = 1.35`
 
 The Fundamental Stability problem in 6T cells is in the Read condition where the pass gates M3 and M4 pulls the “0” storage node up to a nonzero value and directly access the internal nodes of the Cell which increases the variability in the Stability.
 The 8T SRAM Cell eliminates this problem by adding two NMOS to a 6T cell, Provides a read condition that does not disturb the internal nodes of the cell.
@@ -108,25 +108,78 @@ The 8T SRAM Cell eliminates this problem by adding two NMOS to a 6T cell, Provid
 **Write SNM of 8T**
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/SNMWRITE8T.png)
 
-The Write SNM can be determined by fitting the smallest square between the two curves.//
+The Write SNM can be determined by fitting the smallest square between the two curves.
 `SNM = 1.3V`
 
-**Stability Analysis using N-Curve**
+## Stability Analysis using N-Curve
 
 N-Curve is another way of measurement of Stability of the Cell.It provides the Voltage as well as the Current metrics which quantifies the Stability.
 
+**N-Curve of 6T SRAM**
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/NCURVE.png)
 
-**Read Stability**
+**N-Curve of 8T SRAM**
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/NCURVE8T.png)
+
+
+### Read Stability
 
 The difference between Point A and Point B is the **Static Voltage Noise Margin** which determines the maximum tolerable dc noise voltage at internal nodes(Q) of the memory cell before flipping of the data.
-`**SVNM** = 1.36V`
+`6T-SVNM = 1.36V`
+`8T-SVNM = 1.6V`
 
 The Current value at Point C is the **Static Current Noise Margin** which determines the maximum tolerable dc noise current at internal nodes(Q) of the memory cell before flipping of the data.
-`**SINM** = 246uA`
+`6T-SINM = 246uA`
+`8T-SINM = 703uA`
 
+### Write Stability
 
+The difference between Point D and Point C is the **Write Trip Voltage** which determines the minimum voltage needed to flip the internal nodes of the cell(**Q**).
+`6T-WTV = 2.72V`
+`8T-WTV = 3.57V`
 
+The Current value at Point E is the **Write Trip Current** which determines the minimum amount of current to flip the data(**Q**).
+`6T-WTI = -172uA`
+`8T-WTI = -209uA`
+
+**8T SRAM Cell has more Read and Write Stability as compared to 6T SRAM Cell.**
+
+# Proposed 8T SRAM Cell
+
+## PreLayout Simulations
+
+Before doing the Layout,the prelayout simulatons should be done.The read/write timing estimation in Spice is done using a fast-single-8T parasitic model. Fast-single-8T parasitic models considers and estimates the parasitics of the wordlines and bitlines in the bit cell array analysing the capacitance for only 1-Bit Cell.
+
+**Simulation**
+
+**Input Signals**
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/PreLayoutSimulationInput.png)
+
+**Output Signals**
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/PreLayoutSimulationOutput.png)
+
+## PostLayout Simulations
+
+### 6T SRAM Cell
+
+**Layout**
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/Layouts/6TSRAMCell.png)
+
+**Simulation**
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/6TSRAMCell.png)
+
+### 8T SRAM Cell
+
+**Layout**
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/Layouts/8TSRAM.png)
+
+**Simulation**
+
+**Input Signals**
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/InputSignals.png)
+
+**Output Signals**
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/OutputSignals.png)
 
 
 
