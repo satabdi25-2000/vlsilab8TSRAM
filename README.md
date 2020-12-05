@@ -108,8 +108,8 @@ The 8T SRAM Cell eliminates this problem by adding two NMOS to a 6T cell, Provid
 **Write SNM of 8T**
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/SNMWRITE8T.png)
 
-The Write SNM can be determined by fitting the smallest square between the two curves.
-SNM = 1.3V
+The Write SNM can be determined by fitting the smallest square between the two curves.//
+`SNM = 1.3V`
 
 **Stability Analysis using N-Curve**
 
