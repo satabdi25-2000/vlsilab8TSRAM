@@ -138,11 +138,11 @@ N-Curve is another way of measurement of Stability of the Cell.It provides the V
 
 ### Read Stability
 
-The difference between Point A and Point B is the **Static Voltage Noise Margin** which determines the maximum tolerable dc noise voltage at internal nodes(Q) of the memory cell before flipping of the data.
+The difference between Point A and Point C is the **Static Voltage Noise Margin** which determines the maximum tolerable dc noise voltage at internal nodes(Q) of the memory cell before flipping of the data.
 `6T-SVNM = 1.36V`
 `8T-SVNM = 1.6V`
 
-The Current value at Point C is the **Static Current Noise Margin** which determines the maximum tolerable dc noise current at internal nodes(Q) of the memory cell before flipping of the data.
+The Current value at Point B is the **Static Current Noise Margin** which determines the maximum tolerable dc noise current at internal nodes(Q) of the memory cell before flipping of the data.
 `6T-SINM = 246uA`
 `8T-SINM = 703uA`
 
