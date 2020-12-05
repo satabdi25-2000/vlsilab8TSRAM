@@ -73,7 +73,7 @@ The Proposed SRAM consists of Two more Stacked NMOS transistors connected to sep
 
 The Stability of the Cell is quantified by its Signal to Noise Margin(SNM).It determines the maximum DC noise that can be tolerated at the inputs of the memory cell during the read/write operation.
 
-**Hold State**
+## Hold State
 
 **6T-SNM**
 
@@ -188,7 +188,7 @@ There is area overhead that can be tolerated due to improvement in important des
 # Integrated Circuit
 
 The 8T SRAM Cell is integrated with all the SRAM Blocks with all the Layouts and PostLayout Simulation is done.
-For more information of SRAM Blocks,Click here(https://github.com/satabdi25-2000/vlsilabSRAM)
+For more information of SRAM Blocks,[Click here](https://github.com/satabdi25-2000/vlsilabSRAM)
 
 
 **Layout**
