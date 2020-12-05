@@ -2,16 +2,22 @@
 
 ## Table Of Contents
 - [SRAM Design](https://github.com/satabdi25-2000/vlsilab8TSRAM#sram-design)
+
   - [6T SRAM](https://github.com/satabdi25-2000/vlsilab8TSRAM#6T-SRAM)
   - [8T SRAM](https://github.com/satabdi25-2000/vlsilab8TSRAM#8T-SRAM)
 - [Stability Analysis of 6T and 8T](https://github.com/satabdi25-2000/vlsilab8TSRAM#Stability-Analysis-of-6T-and-8T)
+
   - [Read Stability](https://github.com/satabdi25-2000/vlsilab8TSRAM#Read-Stability)
   - [Write Stability](https://github.com/satabdi25-2000/vlsilab8TSRAM#Write-Stability)
 - [Proposed 8T SRAM Cell](https://github.com/satabdi25-2000/vlsilab8TSRAM#Proposed-8T-SRAM-Cell)
+
   - [PreLayout Simulations](https://github.com/satabdi25-2000/vlsilab8TSRAM#PreLayout-Simulations)
   - [PostLayout Simulations](https://github.com/satabdi25-2000/vlsilab8TSRAM#PostLayout-Simulations)
+  
 - [Future Works](https://github.com/satabdi25-2000/vlsilab8TSRAM#Future-Works)
+
 - [Acknowledgements](https://github.com/satabdi25-2000/vlsilab8TSRAM#Acknowledgements)
+
 -[Contact Information](https://github.com/satabdi25-2000/vlsilab8TSRAM#Contact-Information)
 
 
