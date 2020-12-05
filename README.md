@@ -174,7 +174,7 @@ Before doing the Layout,the prelayout simulatons should be done.The read/write t
 
 **Layout**
 
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/Layouts/6TSRAMCELL.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/Layouts/6TSRAMCELL.jpg)
 
 ### 8T SRAM Cell
 
@@ -185,6 +185,16 @@ Before doing the Layout,the prelayout simulatons should be done.The read/write t
 There is area overhead that can be tolerated due to improvement in important design metrics-**Stability** of the SRAM cell.There is an area penalty of 35% because of adding two stacked NMOS to 6T SRAM Cell.
 
 
+# Integrated Circuit
+
+The 8T SRAM Cell is integrated with all the SRAM Blocks with all the Layouts and PostLayout Simulation is done.
+For more information of SRAM Blocks,Click here(https://github.com/satabdi25-2000/vlsilabSRAM)
+
+
+**Layout**
+
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/Layouts/Integrated_Circuit_8T.png)
+
 **Simulation**
 
 **Input Signals**
@@ -194,6 +204,25 @@ There is area overhead that can be tolerated due to improvement in important des
 **Output Signals**
 
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/OutputSignals.png)
+
+# Future Works
+
+- Implementing the Custom based cell designs in OpenRAM and integrating it to compile SRAM.
+- Finding a Conventional approach to reduce leakage current in Low Power Designs.
+
+# Acknowledgements
+
+- Dr.Saroj Rout,Associate Professor,Silicon Institute Of Technology,Bhubaneswar
+- Mr.Santunu Sarangi,Assistant Professor,Silicon Institute Of Technology,Bhubaneswar
+
+# Contact Information
+
+- Satabdi Panda,4th year Undergraduate,EIE Department,Silicon Institute Of Technology,Bhubaneswar satabdi.panda25@gmail.com
+- Dr.Saroj Rout,Associate Professor,Silicon Institute Of Technology,Bhubaneswar saroj.rout@silicon.ac.in
+- Mr.Santunu Sarangi,Assistant Professor,Silicon Institute Of Technology,Bhubaneswar santunu.sarangi@silicon.ac.in
+
+
+
 
 
 
