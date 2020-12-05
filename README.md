@@ -102,10 +102,11 @@ The 8T SRAM Cell eliminates this problem by adding two NMOS to a 6T cell, Provid
 
 ## Write Stability
 
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/SNMWRITE6T.png)
 **Write SNM of 6T**
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/SNMWRITE8T.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/SNMWRITE6T.png)
+
 **Write SNM of 8T**
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/SNMWRITE8T.png)
 
 The Write SNM can be determined by fitting the smallest square between the two curves.
 SNM = 1.3V
@@ -117,12 +118,16 @@ N-Curve is another way of measurement of Stability of the Cell.It provides the V
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/NCURVE.png)
 
 **Read Stability**
+
 The difference between Point A and Point B is the **Static Voltage Noise Margin** which determines the maximum tolerable dc noise voltage at internal nodes(Q) of the memory cell before flipping of the data.
+'''bash
 **SVNM** = 1.36V
+'''
 
 The Current value at Point C is the **Static Current Noise Margin** which determines the maximum tolerable dc noise current at internal nodes(Q) of the memory cell before flipping of the data.
-**SINM** = 246uA
-
+'''bash
+- **SINM** = 246uA
+'''
 
 
 
