@@ -31,7 +31,7 @@ For more Information,[Click here](https://github.com/satabdi25-2000/vlsilabSRAM)
 
 ### Block Diagram
 
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/BlockDiagram/8TSRAMCELL.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/BlockDiagram8T/8TSRAMCELL.png)
 
 ### Modes of Operation
 
@@ -62,7 +62,7 @@ For more Information,[Click here](https://github.com/satabdi25-2000/vlsilabSRAM)
 
 ### Circuit Diagram
 
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/CircuitDiagram/8TSRAM.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/CircuitDiagram8T/8TSRAM.png)
 
 
 
@@ -163,15 +163,15 @@ Before doing the Layout,the prelayout simulatons should be done.The read/write t
 ### 6T SRAM Cell
 
 **Layout**
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/Layouts/6TSRAMCell.png)
-
-**Simulation**
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/6TSRAMCell.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/Layouts/6TSRAMCELL.png)
 
 ### 8T SRAM Cell
 
 **Layout**
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/Layouts/8TSRAM.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/Layouts/8T_SRAM.png)
+
+There is area overhead that can be tolerated due to improvement in important design metrics-**Stability** of the SRAM cell.There is an area penalty of 35% because of adding two stacked NMOS to 6T SRAM Cell.
+
 
 **Simulation**
 
