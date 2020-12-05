@@ -18,7 +18,7 @@
 
 - [Acknowledgements](https://github.com/satabdi25-2000/vlsilab8TSRAM#Acknowledgements)
 
--[Contact Information](https://github.com/satabdi25-2000/vlsilab8TSRAM#Contact-Information)
+- [Contact Information](https://github.com/satabdi25-2000/vlsilab8TSRAM#Contact-Information)
 
 
 
