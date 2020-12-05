@@ -89,12 +89,15 @@ The Stability of the Cell is quantified by its Signal to Noise Margin(SNM).It de
 **Read SNM 0f 6T**
 
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/SNMREAD6T.png)
+
 The Read SNM can be determined by fitting a square in the upper and lower butterfly curve loop.
+
 `SNM = min(SNM1,SNM2) = min(0.5,0.45) = 0.45`
 
 **Read SNM of 8T**
 
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/SNM8T.png)
+
 Similarly,`SNM = min(1.5,1.35) = 1.35`
 
 The Fundamental Stability problem in 6T cells is in the Read condition where the pass gates M3 and M4 pulls the “0” storage node up to a nonzero value and directly access the internal nodes of the Cell which increases the variability in the Stability.
@@ -109,6 +112,7 @@ The 8T SRAM Cell eliminates this problem by adding two NMOS to a 6T cell, Provid
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/SNMWRITE8T.png)
 
 The Write SNM can be determined by fitting the smallest square between the two curves.
+
 `SNM = 1.3V`
 
 ## Stability Analysis using N-Curve
