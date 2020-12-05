@@ -106,9 +106,11 @@ The 8T SRAM Cell eliminates this problem by adding two NMOS to a 6T cell, Provid
 ## Write Stability
 
 **Write SNM of 6T**
+
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/SNMWRITE6T.png)
 
 **Write SNM of 8T**
+
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/SNMWRITE8T.png)
 
 The Write SNM can be determined by fitting the smallest square between the two curves.
@@ -120,9 +122,11 @@ The Write SNM can be determined by fitting the smallest square between the two c
 N-Curve is another way of measurement of Stability of the Cell.It provides the Voltage as well as the Current metrics which quantifies the Stability.
 
 **N-Curve of 6T SRAM**
+
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/NCURVE.png)
 
 **N-Curve of 8T SRAM**
+
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/NCURVE8T.png)
 
 
@@ -157,9 +161,11 @@ Before doing the Layout,the prelayout simulatons should be done.The read/write t
 **Simulation**
 
 **Input Signals**
+
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/PreLayoutSimulationInput.png)
 
 **Output Signals**
+
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/PreLayoutSimulationOutput.png)
 
 ## PostLayout Simulations
@@ -167,11 +173,13 @@ Before doing the Layout,the prelayout simulatons should be done.The read/write t
 ### 6T SRAM Cell
 
 **Layout**
+
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/Layouts/6TSRAMCELL.png)
 
 ### 8T SRAM Cell
 
 **Layout**
+
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/Layouts/8T_SRAM.png)
 
 There is area overhead that can be tolerated due to improvement in important design metrics-**Stability** of the SRAM cell.There is an area penalty of 35% because of adding two stacked NMOS to 6T SRAM Cell.
@@ -180,9 +188,11 @@ There is area overhead that can be tolerated due to improvement in important des
 **Simulation**
 
 **Input Signals**
+
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/InputSignals.png)
 
 **Output Signals**
+
 ![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/OutputSignals.png)
 
 
