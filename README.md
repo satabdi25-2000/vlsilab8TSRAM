@@ -31,7 +31,7 @@ For more Information,[Click here](https://github.com/satabdi25-2000/vlsilabSRAM)
 
 ### Block Diagram
 
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/BlockDiagram8T/8TSRAMCELL.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/BlockDiagram8T/8TSRAMCELL.png)
 
 ### Modes of Operation
 
