@@ -31,7 +31,7 @@ For more Information,[Click here](https://github.com/satabdi25-2000/vlsilabSRAM)
 
 ### Block Diagram
 
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/BlockDiagram8T/8TSRAMCELL.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/BlockDiagram8T/8TSRAMCELL.png)
 
 ### Modes of Operation
 
@@ -62,7 +62,7 @@ For more Information,[Click here](https://github.com/satabdi25-2000/vlsilabSRAM)
 
 ### Circuit Diagram
 
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/CircuitDiagram8T/8TSRAM.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/CircuitDiagram8T/8TSRAM.png)
 
 
 
@@ -81,20 +81,20 @@ The Stability of the Cell is quantified by its Signal to Noise Margin(SNM).It de
 
 **8T-SNM**
 
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/SNM8T.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/SNM8T.png)
 
 
 ## Read Stability
 
 **Read SNM 0f 6T**
 
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/SNMREAD6T.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/SNMREAD6T.png)
 The Read SNM can be determined by fitting a square in the upper and lower butterfly curve loop.
 `SNM = min(SNM1,SNM2) = min(0.5,0.45) = 0.45`
 
 **Read SNM of 8T**
 
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/SNM8T.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/SNM8T.png)
 Similarly,`SNM = min(1.5,1.35) = 1.35`
 
 The Fundamental Stability problem in 6T cells is in the Read condition where the pass gates M3 and M4 pulls the “0” storage node up to a nonzero value and directly access the internal nodes of the Cell which increases the variability in the Stability.
@@ -103,10 +103,10 @@ The 8T SRAM Cell eliminates this problem by adding two NMOS to a 6T cell, Provid
 ## Write Stability
 
 **Write SNM of 6T**
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/SNMWRITE6T.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/SNMWRITE6T.png)
 
 **Write SNM of 8T**
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/SNMWRITE8T.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/SNMWRITE8T.png)
 
 The Write SNM can be determined by fitting the smallest square between the two curves.
 `SNM = 1.3V`
@@ -116,10 +116,10 @@ The Write SNM can be determined by fitting the smallest square between the two c
 N-Curve is another way of measurement of Stability of the Cell.It provides the Voltage as well as the Current metrics which quantifies the Stability.
 
 **N-Curve of 6T SRAM**
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/NCURVE.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/NCURVE.png)
 
 **N-Curve of 8T SRAM**
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/NCURVE8T.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/NCURVE8T.png)
 
 
 ### Read Stability
@@ -153,22 +153,22 @@ Before doing the Layout,the prelayout simulatons should be done.The read/write t
 **Simulation**
 
 **Input Signals**
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/PreLayoutSimulationInput.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/PreLayoutSimulationInput.png)
 
 **Output Signals**
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/PreLayoutSimulationOutput.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/PreLayoutSimulationOutput.png)
 
 ## PostLayout Simulations
 
 ### 6T SRAM Cell
 
 **Layout**
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/Layouts/6TSRAMCELL.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/Layouts/6TSRAMCELL.png)
 
 ### 8T SRAM Cell
 
 **Layout**
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/Layouts/8T_SRAM.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/Layouts/8T_SRAM.png)
 
 There is area overhead that can be tolerated due to improvement in important design metrics-**Stability** of the SRAM cell.There is an area penalty of 35% because of adding two stacked NMOS to 6T SRAM Cell.
 
@@ -176,10 +176,10 @@ There is area overhead that can be tolerated due to improvement in important des
 **Simulation**
 
 **Input Signals**
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/InputSignals.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/InputSignals.png)
 
 **Output Signals**
-![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/master/8TSimulations/OutputSignals.png)
+![](https://github.com/satabdi25-2000/vlsilab8TSRAM/blob/main/8TSimulations/OutputSignals.png)
 
 
 
